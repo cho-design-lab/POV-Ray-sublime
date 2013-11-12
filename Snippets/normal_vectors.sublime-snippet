@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+normal_vectors{
+	${1:number_of_normals},
+	${2:<normal1>}, ${3:<normal2>}${4:,... <normals>}
+}
+]]></content>
+	<tabTrigger>normal_vectors</tabTrigger>
+	<scope>text.povray</scope>
+	<description>normal_vectors ... </description>
+</snippet>

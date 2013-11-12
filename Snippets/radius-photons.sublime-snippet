@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+radius ${1:<gather_radius>},${2:<multiplier>},${3:<gather_radius_media>},${4:<multiplier>}
+]]></content>
+	<tabTrigger>radius</tabTrigger>
+	<scope>text.povray</scope>
+	<description>radius - photons </description>
+</snippet>

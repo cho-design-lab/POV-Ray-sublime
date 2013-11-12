@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+height_field{
+	${1:[HF_TYPE]}
+	${2:"filename"}
+}		
+]]></content>
+	<tabTrigger>height_field</tabTrigger>
+	<scope>text.povray</scope>
+	<description>height_field ... </description>
+</snippet>

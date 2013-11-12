@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+jitter ${1:Jitter}
+]]></content>
+	<tabTrigger>jitter</tabTrigger>
+	<scope>text.povray</scope>
+	<description>jitter - light_source </description>
+</snippet>

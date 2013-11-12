@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+smooth_triangle{
+	${1:<Corner_1>}, ${2:<Normal_1>},
+	${3:<Corner_2>}, ${4:<Normal_2>},
+	${5:<Corner_3>}, ${6:<Normal_3>}
+	uv_vectors ${1:<uv_Corner_1>}, ${2:<uv_Corner_2>}, ${3:<uv_Corner_3>}
+}
+]]></content>
+	<tabTrigger>smooth_triangle</tabTrigger>
+	<scope>text.povray</scope>
+	<description>smooth_triangle uv </description>
+</snippet>

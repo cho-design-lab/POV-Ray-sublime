@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+plane{
+	${1:<Normal>}, ${2:Distance}
+}
+]]></content>
+	<tabTrigger>plane</tabTrigger>
+	<scope>text.povray</scope>
+	<description>plane ... </description>
+</snippet>

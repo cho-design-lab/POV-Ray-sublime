@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+cone {
+        ${1:<Base_Point>}, ${2:Base_Radius}, ${3:<Cap_Point>}, ${4:Cap_Radius}
+}
+]]></content>
+	<tabTrigger>cone</tabTrigger>
+	<scope>text.povray</scope>
+	<description>cone ... </description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+poly{
+	/* n = ((Order + 1) * (Order + 2) * (Order + 3) ) / 6 */
+	${1:Order}, <${2:A1},${3:A2},${4:A3}${5:, ... An}>
+}
+]]></content>
+	<tabTrigger>poly</tabTrigger>
+	<scope>text.povray</scope>
+	<description>poly ... </description>
+</snippet>

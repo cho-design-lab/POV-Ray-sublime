@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+light_source{
+	<${1:x}, ${2:y}, ${3:z}> // position
+	color <${4:Red}, ${5:Green}, ${0:Blue}>
+	pointlight
+	falloff 70
+	media_interaction on
+	media_attenuation off
+	point_at <0,0,0>
+	radius 70
+	tightness 10
+}
+]]></content>
+	<tabTrigger>light_source</tabTrigger> 
+	<scope>text.povray</scope> 
+	<description>light_source default</description>
+</snippet>

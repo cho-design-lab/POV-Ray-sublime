@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+interior{
+	ior 1.0
+	caustics  0.0
+	dispersion 1.0
+	dispersion_samples 7
+	fade_distance      : 0.0 
+	fade_power         : 0.0
+	fade_color         : <0,0,0>
+}
+]]></content>
+	<tabTrigger>interior</tabTrigger>
+	<scope>text.povray</scope>
+	<description>interior default </description>
+</snippet>

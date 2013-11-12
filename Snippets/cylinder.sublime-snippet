@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+cylinder{
+        ${1:<Base_Point>}, ${2:<Cap_Point>}, ${3:Radius}
+        ${4:[ open ]}
+    }
+]]></content>
+	<tabTrigger>cylinder</tabTrigger>
+	<scope>text.povray</scope>
+	<description>cylinder ...</description>
+</snippet>

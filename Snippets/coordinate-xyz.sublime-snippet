@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<${1:X}, ${2:Y}, ${3:Z}>
+]]></content>
+	<tabTrigger>vector</tabTrigger>
+	<scope>text.povray</scope>
+	<description>coordinate-xyz </description>
+</snippet>

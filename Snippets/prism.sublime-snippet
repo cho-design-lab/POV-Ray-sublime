@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+prism{
+	$[1:Height_1}, ${2:Height_2}, ${3:Number_Of_Points},
+	${4:<Point_1>}, ${5:<Point_2>, ... <Point_n>}
+ }
+]]></content>
+	<tabTrigger>prism</tabTrigger>
+	<scope>text.povray</scope>
+	<description>prism ... </description>
+</snippet>

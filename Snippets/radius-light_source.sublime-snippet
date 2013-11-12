@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+radius ${1:Radius}
+]]></content>
+	<tabTrigger>radius</tabTrigger>
+	<scope>text.povray</scope>
+	<description>radius - light_source </description>
+</snippet>

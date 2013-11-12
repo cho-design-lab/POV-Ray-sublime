@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+disc{
+	${1:<Center>}, ${2:<Normal>}, ${3:Radius} ${4:[, Hole_Radius]}
+}
+  ]]></content>
+	<tabTrigger>disc</tabTrigger>
+	<scope>text.povray</scope>
+	<description>disc ... </description>
+</snippet>

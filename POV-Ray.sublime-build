@@ -1,0 +1,7 @@
+{
+	"cmd": ["povray","$file"],
+	"selector": "text.povray",
+	"osx":{
+		"path":"/usr/local/bin:/opt/local/bin"
+	}
+}

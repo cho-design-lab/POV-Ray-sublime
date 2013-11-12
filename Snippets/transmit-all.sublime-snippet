@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+transmit all ${1:Amount}
+]]></content>
+	<tabTrigger>transmit</tabTrigger>
+	<scope>text.povray</scope>
+	<description>transmit all</description>
+</snippet>

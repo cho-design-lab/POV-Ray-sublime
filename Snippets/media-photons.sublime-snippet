@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+media ${1:<max_steps>}${2:,<factor>}
+]]></content>
+	<tabTrigger>media</tabTrigger>
+	<scope>text.povray</scope>
+	<description>media - photons</description>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+julia_fractal{
+	<-0.083,0.0,-0.83,-0.025>
+ 	quaternion
+ 	sqr
+ 	max_iteration 8
+ 	precision 15
+}
+]]></content>
+	<tabTrigger>julia_fractal</tabTrigger>
+	<scope>text.povray</scope>
+	<description>simple julia fractal </description>
+</snippet>

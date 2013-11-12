@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+cubic{
+	<${2:A1},${3:A2},${4:A3}${5:, ... An}>
+}
+]]></content>
+	<tabTrigger>cubic</tabTrigger>
+	<scope>text.povray</scope>
+	<description>cubic ... </description>
+</snippet>

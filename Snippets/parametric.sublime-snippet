@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+ parametric {
+ 	function { ${1:FUNCTION_ITEMS} },
+ 	function { ${2:FUNCTION_ITEMS} },
+ 	function { ${3:FUNCTION_ITEMS} }
+ 	<${4:u1},${5:v1}>, <${6:u2},${7:v2}>
+ }
+]]></content>
+	<tabTrigger>parametric</tabTrigger>
+	<scope>text.povray</scope>
+	<description>parametric ... </description>
+</snippet>

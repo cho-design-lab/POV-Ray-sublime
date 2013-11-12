@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+face_indices{
+	${1:number_of_faces},
+	<${2:index_a},${3:index_b},${4:index_c}>
+	<${5:index_d},${6:index_e},${7:index_f}>
+	${0:...<more indices>}
+}
+]]></content>
+	<tabTrigger>face_indices</tabTrigger>
+	<scope>text.povray</scope>
+	<description>face_indices ... </description>
+</snippet>

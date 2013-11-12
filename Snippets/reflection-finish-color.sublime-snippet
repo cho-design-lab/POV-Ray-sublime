@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+reflection ${1:COLOR}
+]]></content>
+	<tabTrigger>reflection</tabTrigger>
+	<scope>text.povray</scope>
+	<description>reflection - finish </description>
+</snippet>

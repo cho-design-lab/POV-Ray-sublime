@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+triangle{
+	${1:<Corner_1>}, ${2:<Corner_2>}, ${3:<Corner_3>}
+	uv_vectors ${4:<uv_Corner_1>}, ${5:<uv_Corner_2>}, ${6:<uv_Corner_3>}
+}
+]]></content>
+	<tabTrigger>triangle</tabTrigger>
+	<scope>text.povray</scope>
+	<description>triangle uv </description>
+</snippet>

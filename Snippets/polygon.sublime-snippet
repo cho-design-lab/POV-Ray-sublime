@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+polygon {
+	${1:Number_Of_Points}, ${2:<Point_1>} ${3:<Point_2>} ${4:... <Point_n>}
+}
+  ]]></content>
+	<tabTrigger>polygon</tabTrigger>
+	<scope>text.povray</scope>
+	<description>polygon ... </description>
+</snippet>

@@ -1,0 +1,600 @@
+{
+    "fileTypes": [
+        "pov"
+    ], 
+    "name": "POV-Ray", 
+    "patterns": [
+        {
+            "begin": "\"", 
+            "beginCaptures": {
+                "0": {
+                    "name": "punctuation.definition.string.begin.povray"
+                }
+            }, 
+            "end": "\"", 
+            "endCaptures": {
+                "0": {
+                    "name": "punctuation.definition.string.end.povray"
+                }
+            }, 
+            "name": "string.povray", 
+            "patterns": [
+                {
+                    "match": "\\\\.", 
+                    "name": "constant.character.escape.povray"
+                }
+            ]
+        }, 
+        {
+            "match": "\\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))((e|E)(\\+|-)?[0-9]+)?)(L|l|UL|ul|u|U|F|f|ll|LL|ull|ULL)?\\b", 
+            "name": "constant.numeric.povray"
+        }, 
+        {
+            "match": "\\b(rotate|scale|translate)\\b", 
+            "name": "keyword.transformation.povray"
+        }, 
+        {
+            "match": "\\b(transform)\\b", 
+            "name": "keyword.transform.transformation.povray"
+        }, 
+        {
+            "match": "\\b(inverse)\\b", 
+            "name": "keyword.transform-item.transformation.povray"
+        }, 
+        {
+            "match": "\\b(matrix)\\b", 
+            "name": "keyword.matrix.transformation.povray"
+        }, 
+        {
+            "match": "\\b(camera)\\b", 
+            "name": "keyword.camera.povray"
+        }, 
+        {
+            "match": "\\b(perspective|orthographic|fisheye|ultra_wide_angle|omnimax|panoramic|cylinder|spherical)\\b", 
+            "name": "keyword.camera-type.camera.povray"
+        }, 
+        {
+            "match": "\\b(location|right|up|direction|sky)\\b", 
+            "name": "keyword.camera-vector.camera.povray"
+        }, 
+        {
+            "match": "\\b(angle|look_at|blur_amples|aperture|focal_point|confidence|variance)\\b", 
+            "name": "keyword.camera-modifier.camera.povray"
+        }, 
+        {
+            "match": "\\b(false|no|off|on|pi|true|yes)\\b", 
+            "name": "constant.float-expression.built-in.povray"
+        }, 
+        {
+            "match": "\\b(x|y|z|t|u|v)\\b", 
+            "name": "constant.vector-built-in-ident.built-in.povray"
+        }, 
+        {
+            "match": "\\b(abs|acos|acosh|asc|asin|asinh|atan|atanh|atan2|ceil|cos|cosh|defined|degrees|dimensions|dimension_size|div|exp|file_exists|floor|int|ln|log|max|min|mod|pow|radians|rand|seed|select|sin|sinh|sqrt|strcmp|strlen|tan|tanh|val|vdot|vlength)\\b", 
+            "name": "entity.float-function.built-in.povray"
+        }, 
+        {
+            "match": "\\b(min_extent|max_extent|trace|vaxis_rotate|vcross|vrotate|vnormalize|vturbulence)\\b", 
+            "name": "entity.vector-function.built-in.povray"
+        }, 
+        {
+            "match": "\\b(clock|clock_delta|clock_on|final_clock|final_frame|frame_number|initial_clock|initial_frame)\\b", 
+            "name": "variable.float-built-in-ident.built-in.povray"
+        }, 
+        {
+            "match": "\\b(color)\\b", 
+            "name": "storage.color.built-in.povray"
+        }, 
+        {
+            "match": "\\b(rgb|rgbf|rgbt|rgbft)\\b", 
+            "name": "keyword.color-vector.povray"
+        }, 
+        {
+            "match": "\\b(red|blue|green|filter|transmit)\\b", 
+            "name": "keyword.color-keyword-item.povray"
+        }, 
+        {
+            "match": "\\b(str|concat|chr|substr|strupr|strlwr|vstr)\\b", 
+            "name": "entity.string-function.povray"
+        }, 
+        {
+            "match": "\\b(#declare|#local)\\b", 
+            "name": "keyword.declartio.povray"
+        }, 
+        {
+            "match": "\\b(#undef)\\b", 
+            "name": "keyword.destroying.povray"
+        }, 
+        {
+            "match": "\\b(#fopen)\\b", 
+            "name": "keyword.fopen-directive.povray"
+        }, 
+        {
+            "match": "\\b(read|write|append)\\b", 
+            "name": "constant.open-type.fopen-directive.povray"
+        }, 
+        {
+            "match": "\\b(#fclose)\\b", 
+            "name": "keyword.fclose-directive.povray"
+        }, 
+        {
+            "match": "\\b(#read)\\b", 
+            "name": "keyword.read-directive.povray"
+        }, 
+        {
+            "match": "\\b(#write)\\b", 
+            "name": "keyword.write-directive.povray"
+        }, 
+        {
+            "match": "\\b(#default)\\b", 
+            "name": "keyword.default-directive.povray"
+        }, 
+        {
+            "match": "\\b(#version)\\b", 
+            "name": "keyword.version-directive.povray"
+        }, 
+        {
+            "match": "\\b(#if|#else|#ifdef|#ifndef|#switch|#case|#range|#break|#while|#end|#macro)\\b", 
+            "name": "keyword.conditional-directive.povray"
+        }, 
+        {
+            "match": "\\b(#debug|#error|#warning)\\b", 
+            "name": "keyword.text-stream-directive.povray"
+        }, 
+        {
+            "match": "\\b(spline)\\b", 
+            "name": "keyword.spline.povray"
+        }, 
+        {
+            "match": "\\b(linear_spline|quadratic_spline|cubic_spline|natural_spline)\\b", 
+            "name": "keyword.spline-type.spline.povray"
+        }, 
+        {
+            "match": "\\b(object)\\b", 
+            "name": "keyword.object.povray"
+        }, 
+        {
+            "match": "\\b(blob|sphere|cylinder|threshold|hierarchy|sturm)\\b", 
+            "name": "keyword.blob.object.povray"
+        }, 
+        {
+            "match": "\\b(box)\\b", 
+            "name": "keyword.box.object.povray"
+        }, 
+        {
+            "match": "\\b(cone)\\b", 
+            "name": "keyword.cone.object.povray"
+        }, 
+        {
+            "match": "\\b(cylinder)\\b", 
+            "name": "keyword.cylinder.object.povray"
+        }, 
+        {
+            "match": "\\b(height_field|function|hierarchy|smooth|water_level)\\b", 
+            "name": "keyword.height-field.object.povray"
+        }, 
+        {
+            "match": "\\b(julia_fractal|max_iteration|precision|slice|quaternion|hypercomplex|sqr|cube|exp|reciprocal|sin|asin|sinh|asinh|cos|acos|cosh|acosh|tan|atan|tanh|atanh|ln|pwr)\\b", 
+            "name": "keyword.julia-fractal.object.povray"
+        }, 
+        {
+            "match": "\\b(lathe|linear_spline|quadratic_spline|cubic_spline|bezier_spline|sturm)\\b", 
+            "name": "keyword.lathe.object.povray"
+        }, 
+        {
+            "match": "\\b(prism|linear_spline|quadratic_spline|cubic_spline|bezier_spline|linear_sweep|conic_sweep|sturm)\\b", 
+            "name": "keyword.prism.object.povray"
+        }, 
+        {
+            "match": "\\b(sphere)\\b", 
+            "name": "keyword.sphere.object.povray"
+        }, 
+        {
+            "match": "\\b(sphere_sweeep|linear_spline|b_spline|cubic_spline|tolerance)\\b", 
+            "name": "keyword.sphere-sweeep.object.povray"
+        }, 
+        {
+            "match": "\\b(superellipsoid)\\b", 
+            "name": "keyword.superellipsoid.object.povray"
+        }, 
+        {
+            "match": "\\b(sor|sturm)\\b", 
+            "name": "keyword.sor.object.povray"
+        }, 
+        {
+            "match": "\\b(text|ttf)\\b", 
+            "name": "keyword.text.object.povray"
+        }, 
+        {
+            "match": "\\b(torus|sturm)\\b", 
+            "name": "keyword.torus.object.povray"
+        }, 
+        {
+            "match": "\\b(bicubic_patch|type|u_steps|v_steps|flatness)\\b", 
+            "name": "keyword.bicubic_patch.object.povray"
+        }, 
+        {
+            "match": "\\b(disc)\\b", 
+            "name": "keyword.disc.object.povray"
+        }, 
+        {
+            "match": "\\b(mesh|triangle|uv_vectors|smooth_triangle|texture|texture_list|inside_vector|hierarchy)\\b", 
+            "name": "keyword.mesh.object.povray"
+        }, 
+        {
+            "match": "\\b(mesh2|vertex_vectors|normal_vectors|uv_vectors|texture_list|face_indices|normal_indices|uv_indices|inside_vector)\\b", 
+            "name": "keyword.mesh2.object.povray"
+        }, 
+        {
+            "match": "\\b(polygon)\\b", 
+            "name": "keyword.polygon.object.povray"
+        }, 
+        {
+            "match": "\\b(triangle)\\b", 
+            "name": "keyword.triangle.object.povray"
+        }, 
+        {
+            "match": "\\b(smooth_triangle)\\b", 
+            "name": "keyword.smooth_triangle.object.povray"
+        }, 
+        {
+            "match": "\\b(plane)\\b", 
+            "name": "keyword.plane.object.povray"
+        }, 
+        {
+            "match": "\\b(poly|sturm)\\b", 
+            "name": "keyword.poly.object.povray"
+        }, 
+        {
+            "match": "\\b(cubic)\\b", 
+            "name": "keyword.cubic.object.povray"
+        }, 
+        {
+            "match": "\\b(quartic)\\b", 
+            "name": "keyword.quartic.object.povray"
+        }, 
+        {
+            "match": "\\b(quadric)\\b", 
+            "name": "keyword.quadric.object.povray"
+        }, 
+        {
+            "match": "\\b(isosurface|function|contained_by|threshold|accuracy|max_gradient|evaluate|open|max_trace|all_intersections)\\b", 
+            "name": "keyword.isosurface.object.povray"
+        }, 
+        {
+            "match": "\\b(parametric|function|contained_by|max_gradient|accuracy|precompute)\\b", 
+            "name": "keyword.parametric.object.povray"
+        }, 
+        {
+            "match": "\\b(smooth_triangle)\\b", 
+            "name": "keyword.smooth_triangle.object.povray"
+        }, 
+        {
+            "match": "\\b(union|split_union)\\b", 
+            "name": "keyword.union.object.povray"
+        }, 
+        {
+            "match": "\\b(intersection)\\b", 
+            "name": "keyword.intersection.object.povray"
+        }, 
+        {
+            "match": "\\b(difference)\\b", 
+            "name": "keyword.difference.object.povray"
+        }, 
+        {
+            "match": "\\b(merge)\\b", 
+            "name": "keyword.merge.object.povray"
+        }, 
+        {
+            "match": "\\b(light_source|spotlight|shadowless|cylinder|parallel|radius|falloff|tightness|point_at|area_light|adaptive|jitter|circular|orient|looks_like|fade_distance|fade_power|media_attenuation|media_interaction|projected_through)\\b", 
+            "name": "keyword.light-source.object.povray"
+        }, 
+        {
+            "match": "\\b(light_group|light_source|global_lights)\\b", 
+            "name": "keyword.light-group.object.povray"
+        }, 
+        {
+            "match": "\\b(clipped_by|bounded_by|no_shadow|noimage|no_reflection|inverse|sturm|hierarchy|double_illuminate|hollow|interior|material|texture|interior_texture|photons|pigment|normal|finish)\\b", 
+            "name": "keyword.object-modifier.object.povray"
+        }, 
+        {
+            "match": "\\b(pigment)\\b", 
+            "name": "keyword.pigment.texture.povray"
+        }, 
+        {
+            "match": "\\b(image_map)\\b", 
+            "name": "keyword.pigment-type.pigment.texture.povray"
+        }, 
+        {
+            "match": "\\b(color_map|colour_map|pigment_map|quick_color)\\b", 
+            "name": "keyword.pigment_modifier.pigment.texture.povray"
+        }, 
+        {
+            "match": "\\b(checker|hexagon|brick|object)\\b", 
+            "name": "keyword.color-list.pigment.texture.povray"
+        }, 
+        {
+            "match": "\\b(map_type|once|interpolate|filter|transmit)\\b", 
+            "name": "keyword.image-map.texture.povray"
+        }, 
+        {
+            "match": "\\b(gif|tga|iff|ppm|pgm|png|jpeg|tiff|sys)\\b", 
+            "name": "keyword.bitmap-type.texture.povray"
+        }, 
+        {
+            "match": "\\b(normal)\\b", 
+            "name": "keyword.normal.texture.povray"
+        }, 
+        {
+            "match": "\\b(normal_map|slope_map|bump_size|no_bump_scale|accuracy)\\b", 
+            "name": "keyword.normal-modifier.normal.texture.povray"
+        }, 
+        {
+            "match": "\\b(bump_map)\\b", 
+            "name": "keyword.bump-map.normal.texture.povray"
+        }, 
+        {
+            "match": "\\b(map_type|once|interpolate|use_color|use_colour|bump_size)\\b", 
+            "name": "keyword.bump-map-mod.normal.texture.povray"
+        }, 
+        {
+            "match": "\\b(finish)\\b", 
+            "name": "keyword.finish.texture.povray"
+        }, 
+        {
+            "match": "\\b(ambient|diffuse|brilliance|phong|phong_size|specular|roughness|metallic|reflection|crand|conserve_energy|reflection|irid)\\b", 
+            "name": "keyword.finish-item.finish.texture.povray"
+        }, 
+        {
+            "match": "\\b(fresnel|falloff|exponent|metallic)\\b", 
+            "name": "keyword.reflection-item.finish.texture.povray"
+        }, 
+        {
+            "match": "\\b(thickness|turbulence)\\b", 
+            "name": "keyword.irid-item.finish.texture.povray"
+        }, 
+        {
+            "match": "\\b(interior_texture)\\b", 
+            "name": "keyword.interior-texture.texture.povray"
+        }, 
+        {
+            "match": "\\b(texture_map)\\b", 
+            "name": "keyword.texture-map.patterned-texture.texture.povray"
+        }, 
+        {
+            "match": "\\b(tiles|tile2)\\b", 
+            "name": "keyword.tile.patterned-texture.texture.povray"
+        }, 
+        {
+            "match": "\\b(material_map)\\b", 
+            "name": "keyword.material-map.patterned-texture.texture.povray"
+        }, 
+        {
+            "match": "\\b(uv_mapping)\\b", 
+            "name": "keyword.uv-mapping.patterned-texture.texture.povray"
+        }, 
+        {
+            "match": "\\b(cutaway_textures)\\b", 
+            "name": "keyword.cataway-texture.texture.povray"
+        }, 
+        {
+            "match": "\\b(average|boxed|bozo|bumps|cells|cylindrical|dents|function|gradient|granite|leopard|marble|onion|pigment_pattern|planar|radial|ripples|spherical|spiral1|spiral2|spotted|waves|wood|wrinkles)\\b", 
+            "name": "keyword.map-pattern.pattern.texture.povray"
+        }, 
+        {
+            "match": "\\b(agate)\\b", 
+            "name": "keyword.agate.pattern.texture.povray"
+        }, 
+        {
+            "match": "\\b(crackle)\\b", 
+            "name": "keyword.crackle.pattern.texture.povray"
+        }, 
+        {
+            "match": "\\b(from|metric|offset|solid)\\b", 
+            "name": "keyword.crackle-type.pattern.texture.povray"
+        }, 
+        {
+            "match": "\\b(density_file|df3)\\b", 
+            "name": "keyword.density-file.pattern.texture.povray"
+        }, 
+        {
+            "match": "\\b(facets)\\b", 
+            "name": "keyword.facets.pattern.texture.povray"
+        }, 
+        {
+            "match": "\\b(coords|size)\\b", 
+            "name": "keyword.facets-type.pattern.texture.povray"
+        }, 
+        {
+            "match": "\\b(mandel|exterior|interior)\\b", 
+            "name": "keyword.mandelbrot-fractal.pattern.texture.povray"
+        }, 
+        {
+            "match": "\\b(magnet|julia|exterior|interior)\\b", 
+            "name": "keyword.magnet-julia-fractal.pattern.texture.povray"
+        }, 
+        {
+            "match": "\\b(image_pattern)\\b", 
+            "name": "keyword.image-pattern.pattern.texture.povray"
+        }, 
+        {
+            "match": "\\b(use_alpha)\\b", 
+            "name": "keyword.image-pattern-modifier.pattern.texture.povray"
+        }, 
+        {
+            "match": "\\b(quilted|control0|control1)\\b", 
+            "name": "keyword.quilted.pattern.texture.povray"
+        }, 
+        {
+            "match": "\\b(slope|altitude)\\b", 
+            "name": "keyword.slope.pattern.texture.povray"
+        }, 
+        {
+            "match": "\\b(noise_generator)\\b", 
+            "name": "keyword.pattern-modifier.texture.povray"
+        }, 
+        {
+            "match": "\\b(turbulence|octaves|omega|lambda)\\b", 
+            "name": "keyword.turbulence.pattern-modifier.texture.povray"
+        }, 
+        {
+            "match": "\\b(warp)\\b", 
+            "name": "keyword.warp.pattern-modifier.texture.povray"
+        }, 
+        {
+            "match": "\\b(repeat|offset|flip)\\b", 
+            "name": "keyword.repeat-warp.pattern-modifier.texture.povray"
+        }, 
+        {
+            "match": "\\b(black_hole)\\b", 
+            "name": "keyword.black-hole-warp.pattern-modifier.texture.povray"
+        }, 
+        {
+            "match": "\\b(strength|falloff|inverse|repeat|turbulence)\\b", 
+            "name": "keyword.black-hole-item.pattern-modifier.texture.povray"
+        }, 
+        {
+            "match": "\\b(cylindrical)\\b", 
+            "name": "keyword.cylindrical-warp.pattern-modifier.texture.povray"
+        }, 
+        {
+            "match": "\\b(toroidal|orientation|dist_exp|major_radius)\\b", 
+            "name": "keyword.toroidal-warp.pattern-modifier.texture.povray"
+        }, 
+        {
+            "match": "\\b(planar)\\b", 
+            "name": "keyword.planar-warp.pattern-modifier.texture.povray"
+        }, 
+        {
+            "match": "\\b(frequency|phase)\\b", 
+            "name": "keyword.blend-map-modifier.pattern-modifier.texture.povray"
+        }, 
+        {
+            "match": "\\b(ramp_wave|triangle_wave|sine_wave|scallop_wave|cubic_wave|poly_wave)\\b", 
+            "name": "keyword.waveform.pattern-modifier.texture.povray"
+        }, 
+        {
+            "match": "\\b(agate_turb)\\b", 
+            "name": "keyword.agate-modifier.pattern-modifier.texture.povray"
+        }, 
+        {
+            "match": "\\b(brick_size|mortar)\\b", 
+            "name": "keyword.brick-modifier.pattern-modifier.texture.povray"
+        }, 
+        {
+            "match":"\\b(interior)\\b",
+            "name":"keyword.interior.povray"
+        },
+         {
+            "match":"\\b(ior|caustics|dispersion|dispersion_samples|fade_distance|fade_power|fade_color)\\b",
+            "name":"keyword.interior-item.interior.povray"
+        },
+        {
+            "match": "\\b(media)\\b", 
+            "name": "keyword.media.povray"
+        }, 
+        {
+            "match": "\\b(method|intervals|samples|confidence|variance|ratio|absorption|emission|aa_threshold|aa_level|collect)\\b", 
+            "name": "keyword.media-item.media.povray"
+        }, 
+        {
+            "match": "\\b(scattering|eccentricity|extinction)\\b", 
+            "name": "keyword.scattering.media.povray"
+        }, 
+        {
+            "match": "\\b(density)\\b", 
+            "name": "keyword.density.media.povray"
+        }, 
+        {
+            "match": "\\b(brick|checker|hexagon|object)\\b", 
+            "name": "keyword.density-list-pattern.media.povray"
+        }, 
+        {
+            "match": "\\b(density_map)\\b", 
+            "name": "keyword.density-map.media.povray"
+        }, 
+        {
+            "match": "\\b(photons)\\b", 
+            "name": "keyword.photons.povray"
+        }, 
+        {
+            "match": "\\b(spacing|count|gather|media|jitter|max_trace_level|abc_bailout|save_file|load_file|autostop|expand_thresholds|radius)\\b", 
+            "name": "keyword.global-photon-block.photons.povray"
+        }, 
+        {
+            "match": "\\b(background)\\b", 
+            "name": "keyword.background.atmospheric-effect.povray"
+        }, 
+        {
+            "match": "\\b(fog|fog_type)\\b", 
+            "name": "keyword.constant-fog.fog.atmospheric-effect.povray"
+        }, 
+        {
+            "match": "\\b(fog_offset|fog_alt|up|turb_depth|distance|turbulence|omega|lambda|octaves|)\\b", 
+            "name": "keyword.ground-fog-item.fog.atmospheric-effect.povray"
+        }, 
+        {
+            "match": "\\b(sky_sphere)\\b", 
+            "name": "keyword.sky-sphere.atmospheric-effect.povray"
+        }, 
+        {
+            "match": "\\b(rainbow)\\b", 
+            "name": "keyword.rainbow.atmospheric-effect.povray"
+        }, 
+        {
+            "match": "\\b(direction|angle|width|distance|jitter|up|arc_angle|falloff_angle)\\b", 
+            "name": "keyword.rainbow-item.atmospheric-effect.povray"
+        }, 
+        {
+            "match": "\\b(global_settings)\\b", 
+            "name": "keyword.global-setting.povray"
+        }, 
+        {
+            "match": "\\b(adc_bailout|ambient_light|assumed_gamma|hf_gray_16|irid_wavelength|charset|max_intersections|max_trace_level|number_of_waves|noise_generator)\\b", 
+            "name": "keyword.global-setting-item.global-setting.povray"
+        }, 
+        {
+            "match": "\\b(radiosity)\\b", 
+            "name": "keyword.radiosity.global-setting.povray"
+        }, 
+        {
+            "match": "\\b(abc_bailout|always_sample|brightness|count|error_bound|gray_threshold|load_file|low_error_factor|max_sample|media|minimum_reuse|nearest_count|normal|pretrace_end|pretrace_start|recursion_limit|save_file)\\b", 
+            "name": "keyword.radiosity-item.global-setting.povray"
+        }, 
+        {
+            "match": "\\b(photons)\\b", 
+            "name": "keyword.photon.global-setting.povray"
+        }, 
+        
+        {
+            "begin": "/\\*", 
+            "captures": {
+                "0": {
+                    "name": "punctuation.definition.comment.c"
+                }
+            }, 
+            "end": "\\*/", 
+            "name": "comment.block.povray"
+        }, 
+        {
+            "match": "\\*/.*\\n", 
+            "name": "invalid.illegal.stray-comment-end.povray"
+        }, 
+        {
+            "captures": {
+                "1": {
+                    "name": "meta.toc-list.banner.line.povray"
+                }
+            }, 
+            "match": "^//=(\\s*.*?)\\s*=\\s*$\n?", 
+            "name": "comment.line.banner.povray"
+        }, 
+        {
+            "begin": "//", 
+            "end": "$\\n?", 
+            "name": "comment.line.double-slash.povray"
+        }
+    ], 
+    "scopeName": "text.povray", 
+    "uuid": "a63dfc36-c4f6-4211-84b2-ec481d2fcaf9"
+}

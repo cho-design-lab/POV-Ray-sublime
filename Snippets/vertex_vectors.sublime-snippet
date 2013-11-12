@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+vertex_vectors{
+	${1:number_of_vertices},
+	${2:<vertex1>}, ${3:<vertex2>}${4:,... <verteis>}
+}
+]]></content>
+	<tabTrigger>vertex_vectors</tabTrigger>
+	<scope>text.povray</scope>
+	<description>vertex_vectors ... </description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+crackle offset ${1:OFFSET_VALUE}
+]]></content>
+	<tabTrigger>crackle</tabTrigger>
+	<scope>text.povray</scope>
+	<description>crackle - offset </description>
+</snippet>

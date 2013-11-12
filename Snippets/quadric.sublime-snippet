@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+quadric{
+	<${1:A},${2:B},${3:C}>,<${4:D},${5:E},${6:F}>,<${7:G},${8:H},${9:I}>,${10:J}
+}
+]]></content>
+	<tabTrigger>quadric</tabTrigger>
+	<scope>text.povray</scope>
+	<description>quadric ... </description>
+</snippet>

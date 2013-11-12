@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+sor{
+	${1:Number_Of_Points}, ${2:<Point_1>}, ${3:<Point_2>}${4:, ... <Point_n>}
+}
+]]></content>
+	<tabTrigger>sor</tabTrigger>
+	<scope>text.povray</scope>
+	<description>sor ... </description>
+</snippet>

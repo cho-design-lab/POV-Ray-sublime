@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+bump_map{
+	${1:BITMAP_TYPE} "${2:bitmap.ext}"
+}
+]]></content>
+	<tabTrigger>bump_map</tabTrigger>
+	<scope>text.povray</scope>
+	<description>bump_map ... </description>
+</snippet>

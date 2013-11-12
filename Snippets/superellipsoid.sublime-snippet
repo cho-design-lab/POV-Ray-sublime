@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+superellipsoid
+{
+        <${1:Value_E}, ${2:Value_N}>
+}
+]]></content>
+	<tabTrigger>superellipsoid</tabTrigger>
+	<scope>text.povray</scope>
+	<description>superellipsoid ... </description>
+</snippet>

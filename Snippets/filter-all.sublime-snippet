@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+filter all ${2:Amount}
+]]></content>
+	<tabTrigger>filter</tabTrigger>
+	<scope>text.povray</scope>
+	<description>filter all</description>
+</snippet>

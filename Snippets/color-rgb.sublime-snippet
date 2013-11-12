@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<${1:R}, ${2:G}, ${3:B}>
+]]></content>
+	<tabTrigger>vector</tabTrigger>
+	<scope>text.povray</scope>
+	<description>color-rgb </description>
+</snippet>

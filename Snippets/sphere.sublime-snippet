@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+sphere{
+	${1:<Center>}, ${2:Radius}
+}
+]]></content>
+	<tabTrigger>sphere</tabTrigger>
+	<scope>text.povray</scope>
+	<description>sphere object</description>
+</snippet>

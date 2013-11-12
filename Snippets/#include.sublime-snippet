@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+#include "$1"
+]]></content>
+	<tabTrigger>include</tabTrigger> 
+	<scope>text.povray</scope> 
+	<desctiption>#include "..."</desctiption>
+</snippet>

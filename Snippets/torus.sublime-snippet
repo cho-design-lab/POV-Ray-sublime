@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+torus{
+	${1:Major}, {2:Minor}
+}
+]]></content>
+	<tabTrigger>torus</tabTrigger>
+	<scope>text.povray</scope>
+	<description>torus ... </description>
+</snippet>

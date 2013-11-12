@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+media{$1}
+]]></content>
+	<tabTrigger>media</tabTrigger>
+	<scope>text.povray</scope>
+	<description>media </description>
+</snippet>

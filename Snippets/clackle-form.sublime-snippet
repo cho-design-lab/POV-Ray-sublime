@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+crackle form ${1:<FORM_VECTOR>}
+]]></content>
+	<tabTrigger>crackle</tabTrigger>
+	<scope>text.povray</scope>
+	<description>crackle - form </description>
+</snippet>

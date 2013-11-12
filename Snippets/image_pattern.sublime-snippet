@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+image_pattern{
+	${1:BITMAP_TYPE} "${2:bitmap.ext}"
+}
+]]></content>
+	<tabTrigger>image_pattern</tabTrigger>
+	<scope>text.povray</scope>
+	<description>image_pattern ... </description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+lathe{
+        ${1:[SPLINE_TYPE]} ${2]Number_Of_Points}, ${3:<Point_1>}
+        ${4:<Point_2>... <Point_n>}
+}
+]]></content>
+	<tabTrigger>lathe</tabTrigger>
+	<scope>text.povray</scope>
+	<description>lathe ... </description>
+</snippet>

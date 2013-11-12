@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+crackle ${1:[Bump_Size]}
+]]></content>
+	<tabTrigger>crackle</tabTrigger>
+	<scope>text.povray</scope>
+	<description>crackle ... </description>
+</snippet>

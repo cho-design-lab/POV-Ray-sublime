@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+material_map{
+	${1:BITMAP_TYPE} "${2:bitmap.ext}"
+	${3:TEXTURE... }
+}
+]]></content>
+	<tabTrigger>material_map</tabTrigger>
+	<scope>text.povray</scope>
+	<description>material_map ... </description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+camera{
+	location <${1:x}, ${2:y}, ${3:z}>
+	look_at <${4:x}, ${5:y}, ${6:z}>
+	angle ${0:degree}
+}
+]]></content>
+	<tabTrigger>camera</tabTrigger> 
+	<scope>text.povray</scope> 
+	<description>simple camera setting</description>
+</snippet>

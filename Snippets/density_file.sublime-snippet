@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+density_file df3 "${1:filename.df3}"
+]]></content>
+	<tabTrigger>density_file</tabTrigger>
+	<scope>text.povray</scope>
+	<description>density_file  </description>
+</snippet>

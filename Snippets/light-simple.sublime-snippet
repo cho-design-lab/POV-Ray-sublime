@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+light_source{
+	<${1:x}, ${2:y}, ${3:z}> // position
+	color <${4:Red}, ${5:Green}, ${0:Blue}>
+}
+]]></content>
+	<tabTrigger>light_source</tabTrigger> 
+	<scope>text.povray</scope> 
+	<description>simple point light setting</description>
+</snippet>

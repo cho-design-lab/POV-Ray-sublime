@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+radiosity{
+	adc_bailout 0.01
+  	always_sample on
+  	brightness 1.0
+  	count 35
+  	error_bound  1.8
+  	gray_threshold 0.0
+ 	low_error_factor 0.5
+ 	minimum_reuse  0.015
+ 	nearest_count  5  
+	normal  off 
+	pretrace_start  0.08
+	pretrace_end  0.04
+	recursion_limit 3
+}
+]]></content>
+	<tabTrigger>radiosity</tabTrigger>
+	<scope>text.povray</scope>
+	<description>radiosity settings in global settings</description>
+</snippet>

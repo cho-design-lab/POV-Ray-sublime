@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+#if($1)
+#end
+]]></content>
+	<tabTrigger>if</tabTrigger> 
+	<scope>text.povray</scope>
+	<description>#if ... #end</description>
+</snippet>

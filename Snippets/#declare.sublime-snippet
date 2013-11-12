@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+#declare ${1:VAR} = ${2:VAL};
+]]></content>
+	<tabTrigger>declare</tabTrigger>
+	<scope>text.povray</scope>
+	<description>#declare VAR = VAL;</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+turbulence ${1:<Amount>}
+]]></content>
+	<tabTrigger>turbulence</tabTrigger>
+	<scope>text.povray</scope>
+	<description>turbulence - vector </description>
+</snippet>

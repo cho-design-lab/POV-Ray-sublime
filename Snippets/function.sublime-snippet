@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+function ${1:Width}, ${2:Height} {$3}
+]]></content>
+	<tabTrigger>function</tabTrigger>
+	<scope>text.povray</scope>
+	<description>function image </description>
+</snippet>

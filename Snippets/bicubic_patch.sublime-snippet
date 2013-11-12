@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+bicubic_patch{
+	${1:<Point_1>},${2:<Point_2>},${3:<Point_3>},${4:<Point_4>},
+	${5:<Point_5>},${6:<Point_6>},${7:<Point_7>},${8:<Point_8>},
+	${9:<Point_9>},${10:<Point_10>},${11:<Point_11>},${12:<Point_12>},
+	${13:<Point_13>},${14:<Point_14>},${15:<Point_15>},${16:<Point_16>}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

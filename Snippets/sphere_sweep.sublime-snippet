@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+sphere_sweep {
+	${1:linear_spline | b_spline | cubic_spline}
+	${2:NUM_OF_SPHERES},
+	${3:CENTER}, ${4:RADIUS},
+	${5:CENTER}, ${6:RADIUS}${7:,
+	...
+	CENTER, RADIUS}
+}
+]]></content>
+	<tabTrigger>sphere_sweep</tabTrigger>
+	<scope>text.povray</scope>
+	<description>sphere_sweep ... </description>
+</snippet>

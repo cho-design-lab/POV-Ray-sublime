@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+reflection{${1:on or off}}
+]]></content>
+	<tabTrigger>reflection</tabTrigger>
+	<scope>text.povray</scope>
+	<description>reflection - photons </description>
+</snippet>

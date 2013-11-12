@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+crackle metaric ${1:METARIC_VALUE}
+]]></content>
+	<tabTrigger>crackle</tabTrigger>
+	<scope>text.povray</scope>
+	<description>crackle - metaric </description>
+</snippet>

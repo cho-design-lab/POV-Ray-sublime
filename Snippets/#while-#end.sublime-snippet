@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+#while($1)
+#end
+]]></content>
+	<tabTrigger>while</tabTrigger> 
+	<scope>text.povray</scope> 
+	<description>#while ... #end</description>
+</snippet>

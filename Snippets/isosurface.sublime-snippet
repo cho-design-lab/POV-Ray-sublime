@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+isosurface{
+	function { $1 }
+}
+]]></content>
+	<tabTrigger>isosurface</tabTrigger>
+	<scope>text.povray</scope>
+	<description>isosurface ... </description>
+</snippet>

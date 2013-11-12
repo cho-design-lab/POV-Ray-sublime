@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+crackle solid
+]]></content>
+	<tabTrigger>crackle</tabTrigger>
+	<scope>text.povray</scope>
+	<description>crackle - solid </description>
+</snippet>

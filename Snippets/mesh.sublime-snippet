@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+mesh{
+	// triangle(s) or smooth_triangle(s)
+}
+]]></content>
+	<tabTrigger>mesh</tabTrigger>
+	<scope>text.povray</scope>
+	<description>mesh ... </description>
+</snippet>

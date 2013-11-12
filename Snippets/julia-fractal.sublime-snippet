@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+julia_fractal{
+	${1:<4D_Julia_Parameter>}
+}
+]]></content>
+	<tabTrigger>julia_fractal</tabTrigger>
+	<scope>text.povray</scope>
+	<description>julia fractal ....</description>
+</snippet>

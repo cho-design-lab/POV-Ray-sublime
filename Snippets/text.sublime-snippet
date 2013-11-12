@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+text{
+	ttf "${1:fontname.ttf/ttc}" "${2:String_of_Text}"
+	${3:Thickness}, ${4:<Offset>}
+}
+]]></content>
+	<tabTrigger>text</tabTrigger>
+	<scope>text.povray</scope>
+	<description>text ... </description>
+</snippet>

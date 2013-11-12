@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+jitter ${1:<jitter_amount>}
+]]></content>
+	<tabTrigger>jitter</tabTrigger>
+	<scope>text.povray</scope>
+	<description>jitter - photons </description>
+</snippet>
