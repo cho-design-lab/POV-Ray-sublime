@@ -374,7 +374,7 @@
 		{"trigger":"save_file","contents":"save_file \"${1:filename}\""},
 		{"trigger":"autostop","contents":"autostop ${1:<autostop_fraction>}"},
 		{"trigger":"expand_thresholds","contents":"expand_thresholds ${1:<percent_increase>}, ${2:<expand_min>}"},
-		{"trigger":"background","contents":"background {${1:COLOR}"},
+		{"trigger":"background","contents":"background {${1:COLOR}}"},
 		{"trigger":"fog","contents":"fog{$1}"},
 		{"trigger":"fog_type","contents":"fog_type ${1:Fog_Type}"},
 		{"trigger":"fog_offset","contents":"fog_offset ${1:Fog_Offset}"},
