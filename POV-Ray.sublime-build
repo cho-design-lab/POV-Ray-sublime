@@ -1,7 +1,12 @@
 {
-	"cmd": ["povray","$file"],
-	"selector": "text.povray",
-	"osx":{
-		"path":"/usr/local/bin:/opt/local/bin"
-	}
+  "selector": "text.povray",
+  "osx": {
+    "cmd": ["povray","$file"],
+    "path":"/usr/local/bin:/opt/local/bin"
+  },
+
+  "windows": {
+    "cmd": ["pvengine","/render","$file"],
+    "path":"%ProgramFiles%//POV-Ray//v3.7//bin"
+  }
 }
